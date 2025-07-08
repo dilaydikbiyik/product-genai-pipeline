@@ -130,6 +130,7 @@ Projenin çalışması için aşağıdaki kütüphaneler gerekir:
 - transformers
 - torch
 - tqdm
+- sentence-transformers
 
 Tümünü yüklemek için:
 
