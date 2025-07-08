@@ -141,7 +141,7 @@ pip install -r requirements.txt
 
 ## ▶️ Notebook'u Çalıştırma
 
-* **product_genai_pipeline.ipynb dosyasını Google Colab veya Jupyter Notebook ile açın**
+* **Product_Title_Based_Category_and_Description_Generation.ipynb dosyasını Google Colab veya Jupyter Notebook ile açın**
 * **products_raw_1000.csv dosyasını yükleyin**
 * **Tüm hücreleri sırasıyla çalıştırın**
 * **Çıktı dosyası: products_with_predictions.csv**
@@ -150,11 +150,11 @@ pip install -r requirements.txt
 
 ## 📂 Çıktı Dosyaları
 
-| Dosya Adı                       | Açıklama                                      |
-| ------------------------------- | --------------------------------------------- |
-| `products_raw_1000.csv`         | Ham veri                                      |
-| `product_genai_pipeline.ipynb`  | Geliştirilen notebook                         |
-| `products_with_predictions.csv` | Tüm model çıktılarıyla zenginleştirilmiş veri |
+| Dosya Adı                                                        | Açıklama                                      |
+| ---------------------------------------------------------------- | --------------------------------------------- |
+| `products_raw_1000.csv`                                          | Ham veri                                      |
+| `Product_Title_Based_Category_and_Description_Generation.ipynb`  | Geliştirilen notebook                         |
+| `products_with_predictions.csv`                                  | Tüm model çıktılarıyla zenginleştirilmiş veri |
 
 ---
 
