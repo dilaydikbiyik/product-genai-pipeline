@@ -45,19 +45,21 @@ yapay zeka destekli tahmin ve düzenleme adımları uygulanmıştır.
 * **Yöntem**: TF-IDF + Logistic Regression
 * **Eğitim Verisi**: Ürün açıklaması ve kategorisi
 * **Test Doğruluğu**: 1.00 (dengeli ve öğretici veri nedeniyle)
-* **Görsel**: Aşağıda `classification_report` çıktısına ait özet tablo:
+* **Görsel**: Aşağıda verilmiş `classification_report` çıktısına ait tablo ve kategori sınıflandırma tabloları:
 
-```
-Accuracy: 1.0
+### 🧪 Classification Report Output
 
-| Category          | Precision | Recall | F1-score | Support |
-|------------------ |-----------|--------|----------|---------|
-| Electronics       | 1.00      | 1.00   | 1.00     | 20      |
-| Home & Kitchen    | 1.00      | 1.00   | 1.00     | 20      |
-| Sports & Outdoors | 1.00      | 1.00   | 1.00     | 20      |
-| ...               | ...       | ...    | ...      | ...     |
+<img src="visuals/classificationreport.jpg" width="600"/>
 
-```
+### 📊 Category Distribution
+
+<img src="visuals/barplot.png" width="600"/>
+
+### 📉 Confusion Matrix - Kategori Sınıflandırması
+
+<img src="visuals/confusionmatrix.png" width="600"/>
+
+---
 
 ## 📊 3. Kümeleme (Segmentasyon)
 
@@ -87,7 +89,11 @@ Klasik TF-IDF yerine daha semantik anlamı yakalayabilen `sentence-transformers`
 
 ### 🎯 Görselleştirme:
 
-- Kümeleme pasta grafiği `.ipynb` dosyasında mevcuttur.
+- Kümeleme pasta grafiği aşağıda mevcuttur.
+
+### 🍰 Product Title Clustering (7 Clusters)
+
+<img src="visuals/piechart.png" width="600"/>
 
 ---
 
@@ -96,6 +102,10 @@ Klasik TF-IDF yerine daha semantik anlamı yakalayabilen `sentence-transformers`
 * **Model**: `t5-small`
 * **Amaç**: Uzun açıklamaları daha okunabilir hale getirmek
 * **Uygulama**: İlk 100 açıklama üzerinde uygulanmıştır
+
+### 📋 Example Table: Description and Summary
+
+<img src="visuals/outputtable.jpg" width="600"/>
 
 ---
 
