@@ -113,7 +113,7 @@ Klasik TF-IDF yerine daha semantik anlamı yakalayabilen `sentence-transformers`
 
 * **Google Colab** (Notebook geliştirme)
 * **HuggingFace Transformers** (T5 modeli)
-* **scikit-learn** (TF-IDF, KMeans, Naive Bayes)
+* **scikit-learn** (TF-IDF, KMeans, Logistic Regression)
 * **pandas**, **matplotlib**, **seaborn** (veri işleme ve görselleştirme)
 
 ---
